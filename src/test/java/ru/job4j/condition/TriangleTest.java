@@ -19,6 +19,6 @@ public class TriangleTest {
         double ac = 0.2;
         double bc = 0.1;
         boolean result = Triangle.exist(ab, ac, bc);
-        Assert.assertFalse(result);
+        Assert.assertFalse(!result);
     }
 }
