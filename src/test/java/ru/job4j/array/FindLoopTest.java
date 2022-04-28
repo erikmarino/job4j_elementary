@@ -16,7 +16,7 @@ public class FindLoopTest {
     @Test
     public void whenArrayHasNot3Then4() {
        int[] data = {7, 6, 5, 4, 3, 2};
-       int el = 3;
+       int el = 10;
        int result = FindLoop.indexOf(data, el);
        int expected = 4;
        Assert.assertEquals(expected, result);
