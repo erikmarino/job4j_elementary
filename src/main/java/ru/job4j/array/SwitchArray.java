@@ -5,7 +5,6 @@ public class SwitchArray {
         int random = array[source];
         array[source] = array[dest];
         array[dest] = random;
-
         return array;
     }
 
